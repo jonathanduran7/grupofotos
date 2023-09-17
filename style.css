@@ -1,0 +1,11 @@
+/* import other css file*/
+.card{
+  background: red;
+  width: 400px;
+  height: 150px;
+}
+
+.card-footer{
+  background: blue;
+  width: 400px;
+}
