@@ -62,13 +62,85 @@ nav{
   font-style: italic;
 }
 
+.cards-container{}
+
 .card{
-  background: red;
-  width: 400px;
-  height: 150px;
+  background: #8FBAE3;
+  border-radius: 9px;
+  height: 134px;
+  display: flex;
 }
 
-.card-footer{
-  background: blue;
-  width: 400px;
+.card-left{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-left-foto{
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-photo{
+  width: 85%;
+  background: #dfdfdf;
+  height: 80%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-left-socio{
+  height: 20%;
+  font-size: 11px;
+  font-style: italic;
+  text-align: center;
+
+}
+
+.card-right{
+  width: 60%;
+}
+
+.card-right-info{
+  height: 72%;
+}
+
+.card-title{
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.card-subtitle{
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.card-right-logo-container{
+  height: 28%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 10px;
+}
+
+.card-right-logo{
+  background: #dfdfdf;
+  height: 30px;
+  width: 60px;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 30px;
 }
