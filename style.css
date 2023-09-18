@@ -7,15 +7,8 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.card{
-  background: red;
-  width: 400px;
-  height: 150px;
-}
-
-.card-footer{
-  background: blue;
-  width: 400px;
+#app{
+  width: 100vw;
 }
 
 nav{
@@ -54,4 +47,28 @@ nav{
   text-align: center;
   font-size: 13px;
   font-weight: bold;
+}
+
+.content{
+  padding: 10px;
+  width: 100%;
+}
+
+.content-introduction{
+  text-align: justify;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.card{
+  background: red;
+  width: 400px;
+  height: 150px;
+}
+
+.card-footer{
+  background: blue;
+  width: 400px;
 }
