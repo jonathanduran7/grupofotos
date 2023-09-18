@@ -62,7 +62,11 @@ nav{
   font-style: italic;
 }
 
-.cards-container{}
+.cards-container{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
 
 .card{
   background: #8FBAE3;
@@ -92,6 +96,15 @@ nav{
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+}
+
+.card-photo img{
+  width: 100%;
+  object-fit: cover;
+  /* move position more top */
+  /* transform: translateY(30px); */
+  /* transform: scale(0.6); */
 }
 
 .card-left-socio{
